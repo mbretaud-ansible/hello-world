@@ -1,0 +1,9 @@
+---
+packages_remove:
+  - htop
+  - vim
+  - gcc
+  - python-dev
+
+common_user: ansible
+
