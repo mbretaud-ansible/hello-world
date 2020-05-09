@@ -1,12 +1,7 @@
 [all]
+192.168.1.37
 
-[all:vars]
-site=poc
-
-[poc:children]
-linux
-
-[linux]
-localhost
+[local]
+192.168.1.37
 
 

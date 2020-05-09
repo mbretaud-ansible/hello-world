@@ -1,10 +1,5 @@
 ---
-- hosts: linux
+- hosts: local
   gather_facts: False
   roles:
     - role: test_role_linux
-
-# - hosts: windows
-  # gather_facts: False
-  # roles:
-    # - role: test_role_windows
